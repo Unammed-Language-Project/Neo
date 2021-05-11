@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/aditc/CLionProjects/NeoInC/chunk.c
+stdlib.h
+-
+chunk.h
+C:/Users/aditc/CLionProjects/NeoInC/chunk.h
+memory.h
+C:/Users/aditc/CLionProjects/NeoInC/memory.h
+
+C:/Users/aditc/CLionProjects/NeoInC/chunk.h
+commons.h
+C:/Users/aditc/CLionProjects/NeoInC/commons.h
+
+C:/Users/aditc/CLionProjects/NeoInC/commons.h
+stdbool.h
+-
+stdint.h
+-
+stddef.h
+-
+
+C:/Users/aditc/CLionProjects/NeoInC/main.c
+stdio.h
+-
+chunk.h
+C:/Users/aditc/CLionProjects/NeoInC/chunk.h
+
+C:/Users/aditc/CLionProjects/NeoInC/memory.c
+stdlib.h
+-
+memory.h
+C:/Users/aditc/CLionProjects/NeoInC/memory.h
+
+C:/Users/aditc/CLionProjects/NeoInC/memory.h
+commons.h
+C:/Users/aditc/CLionProjects/NeoInC/commons.h
+
