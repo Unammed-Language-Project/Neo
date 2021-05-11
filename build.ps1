@@ -1,5 +1,5 @@
-ld
+mkdir build
 cd build/
 cmake ..
 cmake --build . --config Release
-./Release/main.exe
+Write-Host "Generated Neo executable in ./Releases/main.exe."
