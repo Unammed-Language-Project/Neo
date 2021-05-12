@@ -1,3 +1,6 @@
+git clone https://github.com/Unammed-Language-Project/Neo
+cd Neo
+
 $null = mkdir build
 $scriptPath = split-path -parent $MyInvocation.MyCommand.Definition 
 
